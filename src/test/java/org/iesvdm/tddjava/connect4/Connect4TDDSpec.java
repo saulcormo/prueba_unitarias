@@ -33,7 +33,8 @@ public class Connect4TDDSpec {
 
     @Test
     public void whenTheGameStartsTheBoardIsEmpty() {
-
+        assertThat(tested.getNumberofDisc()).isEqualTo(0);
+        
     }
 
     /*
