@@ -33,7 +33,7 @@ public class Connect4TDDSpec {
 
     @Test
     public void whenTheGameStartsTheBoardIsEmpty() {
-        assertThat(tested.getNumberofDisc()).isEqualTo(0);
+        assertThat(tested.getNumberOfDiscs()).isEqualTo(0);
         
     }
 
@@ -45,9 +45,20 @@ public class Connect4TDDSpec {
 
     @Test
     public void whenDiscOutsideBoardThenRuntimeException() {
+        assertThatThrownBy(() -> {tested.putDiscInColumn(8);})
+                .isInstanceOf(RuntimeException.class);
 
+        assertThatThrownBy(() -> {
+        for (int i =0; i<=7; i++  )
+        tested.putDiscInColumn(2);});
 
-    }
+        for(int j =0; j<=7; j++  ){
+            final int finalJ = j;
+            assertThatThrownBy(() -> {
+            for(int i =0; i<=7; i++  )
+            {tested.putDiscInColumn(finalJ);});
+            }}}
+
 
     @Test
     public void whenFirstDiscInsertedInColumnThenPositionIsZero() {
@@ -58,7 +69,7 @@ public class Connect4TDDSpec {
 
     @Test
     public void whenSecondDiscInsertedInColumnThenPositionIsOne() {
-
+    ass
 
     }
 

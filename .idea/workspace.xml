@@ -45,7 +45,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -211,7 +211,7 @@
       <workItem from="1712737378625" duration="235000" />
       <workItem from="1712737661346" duration="365000" />
       <workItem from="1712738067209" duration="122000" />
-      <workItem from="1712738193746" duration="1218000" />
+      <workItem from="1712738193746" duration="5245000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT INICIAL">
       <created>1680163647182</created>
@@ -235,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712739411053</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="COMMIT INICial Saul">
+      <option name="closed" value="true" />
+      <created>1712739436583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712739436583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +275,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/feature_brach_test_conect4" />
                       </list>
                     </value>
                   </entry>

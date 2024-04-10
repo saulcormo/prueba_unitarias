@@ -138,6 +138,6 @@ public class Connect4TDD {
         }
     }
 
-    public boolean getNumberofDisc() {
-    }
+
+
 }
