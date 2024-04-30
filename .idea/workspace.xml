@@ -6,23 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="561063a2-7378-4c9d-bb45-d310103a949e" name="Changes" comment="COMMIT INICial Saul">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/tddjava/connect4/Connect4TDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/tddjava/connect4/Connect4TDD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/tddjava/connect4/Connect4TDDSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/tddjava/connect4/Connect4TDDSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/tddjava/ship/DirectionSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/tddjava/ship/DirectionSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/connect4/Connect4$Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/connect4/Connect4$Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/connect4/Connect4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/connect4/Connect4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/connect4/Connect4TDD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/connect4/Connect4TDD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/ship/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/ship/Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/tictactoe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/iesvdm/tddjava/tictactoe/TicTacToe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/asserts/AssertTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/asserts/AssertTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/connect4/Connect4TDDSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/connect4/Connect4TDDSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/friendships/FriendshipsMongoAssertJTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/friendships/FriendshipsMongoAssertJTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/DirectionSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/DirectionSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/LocationSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/LocationSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/PlanetSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/PlanetSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/PointSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/PointSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/ShipSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/ship/ShipSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/tictactoe/TicTacToeSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/iesvdm/tddjava/tictactoe/TicTacToeSpec.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +79,17 @@
     "TestNG.DirectionSpec.whenGetFromShortNameBThenReturnNone.executor": "Run",
     "TestNG.DirectionSpec.whenGetFromShortNameNThenReturnDirectionN.executor": "Run",
     "TestNG.DirectionSpec.whenGetFromShortNameWThenReturnDirectionW.executor": "Run",
+    "TestNG.LocationSpec.givenDirectionEWhenForwardThenXIncreases.executor": "Run",
+    "TestNG.LocationSpec.givenDirectionNWhenForwardThenYDecreases.executor": "Run",
+    "TestNG.LocationSpec.givenDirectionSWhenForwardThenYIncreases.executor": "Run",
+    "TestNG.LocationSpec.givenDirectionWWhenForwardThenXDecreases.executor": "Run",
+    "TestNG.LocationSpec.whenInstantiatedThenDirectionIsStored.executor": "Run",
+    "TestNG.LocationSpec.whenInstantiatedThenXIsStored.executor": "Run",
+    "TestNG.LocationSpec.whenInstantiatedThenYIsStored.executor": "Run",
+    "TestNG.PlanetSpec.executor": "Run",
+    "TestNG.PlanetSpec.whenInstantiatedThenMaxIsSet.executor": "Run",
+    "TestNG.PlanetSpec.whenInstantiatedThenObstaclesAreSet.executor": "Run",
+    "TestNG.PointSpec.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feature__brach__test__conect4",
     "kotlin-language-version-configured": "true",
@@ -256,7 +250,7 @@
       <workItem from="1712738067209" duration="122000" />
       <workItem from="1712738193746" duration="5302000" />
       <workItem from="1713947296288" duration="6263000" />
-      <workItem from="1714465406280" duration="5009000" />
+      <workItem from="1714465406280" duration="5962000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT INICIAL">
       <created>1680163647182</created>
@@ -296,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712745898264</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="COMMIT INICial Saul">
+      <option name="closed" value="true" />
+      <created>1714476444909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714476444909</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +354,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/iesvdm/tddjava/tictactoe/TicTacToeSpec.java</url>
           <line>41</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/iesvdm/tddjava/ship/PlanetSpec.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
