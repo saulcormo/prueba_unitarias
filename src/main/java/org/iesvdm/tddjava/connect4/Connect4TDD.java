@@ -42,6 +42,7 @@ public class Connect4TDD {
         return currentPlayer;
     }
 
+
     public int getNumberOfDiscs() {
         return IntStream.range(0, COLUMNS)
                 .map(this::getNumberOfDiscsInColumn).sum();

@@ -23,34 +23,45 @@ public class LocationSpec {
         location = new Location(new Point(x, y), direction);
         obstacles = new ArrayList<Point>();
     }
-
     public void whenInstantiatedThenXIsStored() {
-
+        assertEquals(location.getX(), x);
     }
 
     public void whenInstantiatedThenYIsStored() {
-
+        assertEquals(location.getY(), y);
     }
 
     public void whenInstantiatedThenDirectionIsStored() {
-
+        assertEquals(location.getDirection(), direction);
     }
 
     public void givenDirectionNWhenForwardThenYDecreases() {
-
+        int initialY = location.getY();
+        location.forward();
+        assertEquals(location.getY(), initialY - 1);
     }
 
     public void givenDirectionSWhenForwardThenYIncreases() {
-
+        location.setDirection(Direction.SOUTH);
+        int initialY = location.getY();
+        location.forward();
+        assertEquals(location.getY(), initialY + 1);
     }
 
     public void givenDirectionEWhenForwardThenXIncreases() {
-
+        location.setDirection(Direction.EAST);
+        int initialX = location.getX();
+        location.forward();
+        assertEquals(location.getX(), initialX + 1);
     }
 
     public void givenDirectionWWhenForwardThenXDecreases() {
-
+        location.setDirection(Direction.WEST);
+        int initialX = location.getX();
+        location.forward();
+        assertEquals(location.getX(), initialX - 1);
     }
+
 
     public void givenDirectionNWhenBackwardThenYIncreases() {
 
