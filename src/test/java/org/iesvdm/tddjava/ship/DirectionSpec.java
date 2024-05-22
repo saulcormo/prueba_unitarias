@@ -2,7 +2,7 @@ package org.iesvdm.tddjava.ship;
 
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
-
+.
 @Test
 public class DirectionSpec {
 
